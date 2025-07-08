@@ -11,7 +11,7 @@ using namespace std;
 
 
 /*
-2. Main APIs: (All APIs are thread-safe and these APIs can be directly called by the user/user facing function)
+ APIs: (All APIs are thread-safe and these APIs can be directly called by the user/user facing function)
   createBooking(roomId, start, end, cap, emails) -> BookingId, Notifications Sent
   findAvailableRooms(start, end, cap) -> List of RoomIds
   cancelBooking(bookingId) -> Notifications Sent
@@ -19,7 +19,7 @@ using namespace std;
 */
 
 /*
-3. Data Models: to store in the database the above APIs results
+ Data Models: to store in the database the above APIs results
   Room
   - id
   - capacity
@@ -39,7 +39,7 @@ using namespace std;
 */
 
 /*
-4. Services:
+ Services:
    MeetingService
    - Book()
    - Cancel()
